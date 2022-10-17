@@ -86,16 +86,100 @@ console.log('main.js');
 // [12:07] Marius Kuzminskas
 // 5. let sent1 = [ 'Sveiki', 'mano', 'vardas', 'James' ] let sent2 = [ '. ', 'is', 'Londono']   1. sujujngti masyvus i viena   2. suskaicuoti kiek kieviename masyve yra elementu   3. is sujungto masyvo grazinti atskirame masyve  ['vardas', 'James', '. ', 'is' ]
 
-let sent1 = [ 'Sveiki', 'mano', 'vardas', 'James' ];
-let sent2 = [ '. ', 'is', 'Londono'];
-// console.log(sent);
+// let sent1 = [ 'Sveiki', 'mano', 'vardas', 'James' ];
+// let sent2 = [ '. ', 'is', 'Londono'];
+// // console.log(sent);
+// // console.log(sent1);
+// // console.log(sent2);
+
+// sent1=sent1.concat(sent2)
+
+
+// // for (const iterator of sent2) {
+// //  sent1.push(iterator);
+// // }
 // console.log(sent1);
-// console.log(sent2);
-
-sent1=sent1.concat(sent2)
 
 
-// for (const iterator of sent2) {
-//  sent1.push(iterator);
-// }
-console.log(sent1);
+
+
+
+
+
+
+
+// ----------------------Užduotys--------------------------
+
+// Susikurkite skaičių masyva 'numbersArray' su siais nariais : 2, 12, 33, -7, 28, 49, -17, 19, 42, -14, -10, 20
+let numbersArray=[ 2, 12, 33, -7, 28, 49, -17, 19, 42, -14, -10, 20];
+// Sekančias užduotis atlikti su naujais masyvais(kopijomis)
+let numbersArrayCopy=numbersArray.slice();
+console.log(numbersArrayCopy);
+
+
+function ArrayF(Arr){
+for(let i=0;i<Arr.length;i++){
+
+Arr[i]=Arr[i]*2;
+
+}
+}
+// console.log(numbersArray)
+ArrayF(numbersArrayCopy)
+console.log(numbersArrayCopy);
+
+
+
+
+
+
+// Padauginti masyvo narius iš 2
+
+
+// Pakelti masyvo narius kvadratu
+let numbersArrayCopy2=numbersArray.slice();
+
+function ArraySquared(ArrSq){
+for(let i=0;i<ArrSq.length;i++){
+
+ArrSq[i]=ArrSq[i]*ArrSq[i];
+
+}
+}
+
+ArraySquared(numbersArrayCopy2)
+console.log(numbersArrayCopy2);
+
+// Padauginti masyvo narius iš jų index'0 (vietos masyve)
+
+// Atrinkti tiktai teigimų elementų masyvą
+
+// Atrinkti tiktai neigiamų elementų masyvą
+
+// Atrinkti tiktai lyginių skaičių masyvą
+
+// Atrinkti tiktai nelyginių skaičių masyvą
+
+// Visas neigiamas vertes masyve padaryti teigiamomis
+
+// Pakelti visas masyvo reikšmes laipsniu 'index'
+
+// Atrinkti tik natūralių skaičių masyvą
+
+// Suapvalinti visas masyvo reikšmes iki sveikų skaičių
+
+// Atrinkti kas antrą elementą
+
+// Atrinkti kas penktą elementą
+
+// Sukurti funkciją, kuri ima masyvą ir atspausdina kiek- vieną jo reikšmę atskirai: [0] => 2. (nieko negrąžina)
+
+// Sukurti funkciją, kuri ima masyvą ir grąžina visų jo elementų sumą
+
+// Sukurti funkciją, kuri ima masyvą ir grąžina visų ele- mentų vidurkį
+
+// Sukurti funkciją, kuri ima masyvą ir grąžina didžiau- sią skaičių masyve.
+
+// Sukurti funkciją, kuri ima masyvą ir grąžina mažiau- sią skaičių masyve.
+
+// Sukurti funkciją, kuri ima masyvą ir išrikiuja jo ele- mentus nuo mažiausio iki didžiausio ir grąžina tą masyvą.
