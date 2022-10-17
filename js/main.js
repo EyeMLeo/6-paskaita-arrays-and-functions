@@ -92,10 +92,10 @@ let sent2 = [ '. ', 'is', 'Londono'];
 // console.log(sent1);
 // console.log(sent2);
 
+sent1=sent1.concat(sent2)
 
 
-
-for (const iterator of sent2) {
- sent1.push(iterator);
-}
-console.log(sent1.toString());
+// for (const iterator of sent2) {
+//  sent1.push(iterator);
+// }
+console.log(sent1);
