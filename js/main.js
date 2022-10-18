@@ -332,6 +332,12 @@ let numbersArray=[ 2, 12, -5.5, 33, -7, 28, 11.789, 49, -17, 19, 42, -14, -10, 2
 
 
 // Atrinkti kas antrą elementą
+let newArray=[];
+console.log(numbersArray);
+for (let i = 2; i < numbersArray.length; i+=2) {
+newArray.push(numbersArray[i]);
+}
+console.log('newArray ===', newArray);
 
 // Atrinkti kas penktą elementą
 
