@@ -314,12 +314,20 @@ let numbersArray=[ 2, 12, -5.5, 33, -7, 28, 11.789, 49, -17, 19, 42, -14, -10, 2
 // console.log(ArrayTIndex);
 
 
-// Atrinkti tik natūralių skaičių masyvą
+// ----------------------------Atrinkti tik natūralių skaičių masyvą
 
 // Suapvalinti visas masyvo reikšmes iki sveikų skaičių
 
-console.log(numbersArray);
-// const ArrayTIndex=[]
+// console.log(numbersArray);
+// let newArray=[]
+// for (const iterator of numbersArray) {
+// newArray.push(+iterator.toFixed(0));
+// // console.log();
+
+// }
+// console.log(newArray);
+
+// // const ArrayTIndex=[]
 
 
 
