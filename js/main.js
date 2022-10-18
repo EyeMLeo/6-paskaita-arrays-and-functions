@@ -332,14 +332,21 @@ let numbersArray=[ 2, 12, -5.5, 33, -7, 28, 11.789, 49, -17, 19, 42, -14, -10, 2
 
 
 // Atrinkti kas antrą elementą
+// let newArray=[];
+// console.log(numbersArray);
+// for (let i = 2; i < numbersArray.length; i+=2) {
+// newArray.push(numbersArray[i]);
+// }
+// console.log('newArray ===', newArray);
+
+// Atrinkti kas penktą elementą
+
 let newArray=[];
 console.log(numbersArray);
-for (let i = 2; i < numbersArray.length; i+=2) {
+for (let i = 4; i < numbersArray.length; i+=5) {
 newArray.push(numbersArray[i]);
 }
 console.log('newArray ===', newArray);
-
-// Atrinkti kas penktą elementą
 
 // Sukurti funkciją, kuri ima masyvą ir atspausdina kiek- vieną jo reikšmę atskirai: [0] => 2. (nieko negrąžina)
 
